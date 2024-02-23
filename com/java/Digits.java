@@ -7,7 +7,7 @@ public class Digits {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
         for (int i=0;i<size;i++){
-            int value = scanner.nextInt(); // 0
+            int value = scanner.nextInt();
             if(value == 0){
                 System.out.println(0);
                 continue;
